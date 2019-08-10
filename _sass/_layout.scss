@@ -39,11 +39,11 @@
 }
 
 #footer {
+    
     margin-top: 50px;
     text-align: center;
 
     &::after {
-        @include retina-background-image($img-dude);
         display: block;
         content: "";
         width: 65px;
